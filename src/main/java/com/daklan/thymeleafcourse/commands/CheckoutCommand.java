@@ -5,8 +5,6 @@ import javax.validation.constraints.Size;
 
 public class CheckoutCommand {
 
-    @NotEmpty
-    @Size(min =  2, max = 50)
 
     @NotEmpty
     @Size(min =  2, max = 50)
