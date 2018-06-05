@@ -21,7 +21,7 @@ public class LoginController {
         return "login";
     }
 
-    @RequestMapping("ogout-success")
+    @RequestMapping("logout-success")
     public String youAreLoggedout() {
 
         return"logout-success";
