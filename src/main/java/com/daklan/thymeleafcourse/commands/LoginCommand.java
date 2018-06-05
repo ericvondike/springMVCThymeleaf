@@ -1,14 +1,13 @@
 package com.daklan.thymeleafcourse.commands;
 
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.NotNull;
 
 public class LoginCommand {
 
-    @NotEmpty
+    @NotNull
     private String username;
 
-    @NotEmpty
+    @NotNull
     private String password;
 
     public String getUsername() {
