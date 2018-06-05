@@ -1,35 +1,35 @@
 package com.daklan.thymeleafcourse.commands;
 
-import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 public class CheckoutCommand {
 
 
-    @NotEmpty
+    @NotNull
     @Size(min =  2, max = 50)
     private String firstName;
 
-    @NotEmpty
+    @NotNull
     @Size(min =  2, max = 50)
     private String lastName;
 
-    @NotEmpty
+    @NotNull
     @Size(min =  2, max = 50)
     private String addressLine1;
     private String addressLine2;
 
 
 
-    @NotEmpty
+    @NotNull
     @Size(min =  2, max = 50)
     private String city;
 
-    @NotEmpty
+    @NotNull
     @Size(min =  2, max = 2)
     private String stateCode;
 
-    @NotEmpty
+    @NotNull
     @Size(min =  5, max = 10)
     private String zipCode;
 
